@@ -32,7 +32,7 @@ nsp.on('connection', function(socket){
 });
 
 http.listen(5000, function() {
-    console.log('listening on 0.0.0.0:5000');
+    console.log('listening on 127.0.0.1:5000');
 });
 
 
